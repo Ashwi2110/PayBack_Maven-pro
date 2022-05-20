@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="60.092217">
+    <testcase classname="To validate the functionalties of Products" name="Validating Products Option" time="60.092217">
+        <system-out><![CDATA[Given user clicks on the "Products" Option to validate......................passed
+When user select any product In Products Option.............................passed
+And user selects "Quantity" as <qty>........................................passed
+And user clicks on "Confirm" Option to Login................................passed
+And user should enter registered mobile number in Products Option...........passed
+And user adds "Pin" number as <pin> in Products Option......................passed
+And user clicks on "Login" option...........................................passed
+Then clicks on "Confirm" Option to check availability.......................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,527 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2677945900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaybackSteps.openBrowsser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login into Payback",
+        "description": "",
+        "id": "to-validate-the-functionalties-of-login;login-into-payback;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11798411000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "PaybackSteps.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2121297000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter the \"MobileNumber\" as \u003cmobno\u003e on Login Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MobileNumber\"",
+                  "offset": 15
+                }
+              ],
+              "location": "PaybackSteps.user_enter_the_as_mobno_on_Login_Page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2090935600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter \"Pin\" as \u003cpin\u003e on Login Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pin\"",
+                  "offset": 11
+                }
+              ],
+              "location": "PaybackSteps.user_enter_as_pin_on_Login_Page(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cbutton class\u003d\"btn pb-login-submit red-button\" disabled\u003d\"\"\u003e...\u003c/button\u003e is not clickable at point (391, 566). Other element would receive the click: \u003ciframe title\u003d\"recaptcha challenge expires in two minutes\" src\u003d\"https://www.google.com/recaptcha/api2/bframe?hl\u003den\u0026amp;v\u003dM-QqaF9xk6BpjLH22uHZRhXt\u0026amp;k\u003d6LfeWlAUAAAAACm-9sbgznU7woMofbUA_LawU4E3\" name\u003d\"c-pnqwlxbwyl1\" frameborder\u003d\"0\" scrolling\u003d\"no\" sandbox\u003d\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox\" style\u003d\"width: 400px; height: 580px;\"\u003e\u003c/iframe\u003e\n  (Session info: chrome\u003d101.0.4951.67)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-B33943GF\u0027, ip: \u0027192.168.137.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_301\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\SAGARJ~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: bca1be1614b77bd0c1e96ef425e1d0a4\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat step_definition.PaybackSteps.user_Click_on_the_button_on_Login_Page(PaybackSteps.java:70)\r\n\tat ✽.user Click on the \"Login\" button on Login Page(Feature/@Login_to_PayBack.feature:8)\r\n",
+              "duration": 9146759400,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "user Click on the \"Login\" button on Login Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 18
+                }
+              ],
+              "location": "PaybackSteps.user_Click_on_the_button_on_Login_Page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login_to_PayBack"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the functionalties of Login",
+    "description": "",
+    "id": "to-validate-the-functionalties-of-login",
+    "keyword": "Feature",
+    "uri": "Feature/@Login_to_PayBack.feature",
+    "tags": [
+      {
+        "name": "@Login_to_PayBack",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1343225000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaybackSteps.openBrowsser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Validating E-Voucher Option",
+        "description": "",
+        "id": "to-validate-the-functionalties-of-e-voucher;validating-e-voucher-option;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 27427742700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on the \"E-Voucher\" Option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"E-Voucher\"",
+                  "offset": 19
+                }
+              ],
+              "location": "PaybackSteps.user_clicks_on_the_Option(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10282639600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select any product",
+            "match": {
+              "location": "PaybackSteps.user_select_any_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d101.0.4951.67)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-B33943GF\u0027, ip: \u0027192.168.137.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_301\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\SAGARJ~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58991}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 396419d0943419f2c950610735fff4dc\n*** Element info: {Using\u003dxpath, value\u003d//button[@class\u003d\u0027btn btn-payback\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat step_definition.PaybackSteps.user_clicks_on_Option(PaybackSteps.java:106)\r\n\tat ✽.user clicks on \"Place Order\" Option(Feature/@Pizza_Hut_Validation.feature:9)\r\n",
+              "duration": 27985246200,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "user clicks on \"Place Order\" Option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Place Order\"",
+                  "offset": 15
+                }
+              ],
+              "location": "PaybackSteps.user_clicks_on_Option(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99100,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user should enter registered mobile number",
+            "match": {
+              "location": "PaybackSteps.user_should_enter_registered_mobile_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user enters on next",
+            "match": {
+              "location": "PaybackSteps.user_enters_on_next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89300,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user adds \"Pin\" number as \u003cpin\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pin\"",
+                  "offset": 10
+                }
+              ],
+              "location": "PaybackSteps.user_adds_number_as_pin(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user clicks on \"Submit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Submit\"",
+                  "offset": 15
+                }
+              ],
+              "location": "PaybackSteps.user_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87500,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user clicks on \"Place Order\" Option in E-Voucher page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Place Order\"",
+                  "offset": 15
+                }
+              ],
+              "location": "PaybackSteps.user_clicks_on_Option_in_E_Voucher_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121600,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user should enter \"OTP\" as \u003cotp\u003e on Confirm OTP page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"OTP\"",
+                  "offset": 18
+                }
+              ],
+              "location": "PaybackSteps.user_should_enter_as_otp_on_Confirm_OTP_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45000,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user should click on \"I agree to  Privacy Policy and Terms \u0026 conditions\" option on Confirm OTP page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"I agree to  Privacy Policy and Terms \u0026 conditions\"",
+                  "offset": 21
+                }
+              ],
+              "location": "PaybackSteps.user_should_click_on_option_on_Confirm_OTP_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40600,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "click on \"Confirm Order\" on E-Voucher page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Confirm Order\"",
+                  "offset": 9
+                }
+              ],
+              "location": "PaybackSteps.click_on_on_E_Voucher_page(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Pizza_Hut_Validation"
+          },
+          {
+            "name": "@Pizza_Hut_Validation"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the functionalties of E-Voucher",
+    "description": "",
+    "id": "to-validate-the-functionalties-of-e-voucher",
+    "keyword": "Feature",
+    "uri": "Feature/@Pizza_Hut_Validation.feature",
+    "tags": [
+      {
+        "name": "@Pizza_Hut_Validation",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2121081300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PaybackSteps.openBrowsser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Validating Products Option",
+        "description": "",
+        "id": "to-validate-the-functionalties-of-smart-watch;validating-products-option;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18335578300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on the \"Products\" Option to validate",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Products\"",
+                  "offset": 19
+                }
+              ],
+              "location": "PaybackSteps.user_clicks_on_the_Option_to_validate(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6435529400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select any product In Products Option",
+            "match": {
+              "location": "PaybackSteps.user_select_any_product_In_Products_Option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2121610300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user selects \"Quantity\" as \u003cqty\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Quantity\"",
+                  "offset": 13
+                }
+              ],
+              "location": "PaybackSteps.user_selects_as_qty(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102681100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on \"Confirm\" Option to Login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Confirm\"",
+                  "offset": 15
+                }
+              ],
+              "location": "PaybackSteps.user_clicks_on_Option_to_Login(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5205763600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should enter registered mobile number in Products Option",
+            "match": {
+              "location": "PaybackSteps.user_should_enter_registered_mobile_number_in_Products_Option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8121369300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user adds \"Pin\" number as \u003cpin\u003e in Products Option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pin\"",
+                  "offset": 10
+                }
+              ],
+              "location": "PaybackSteps.user_adds_number_as_pin_in_Products_Option(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8122209200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on \"Login\" option",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "PaybackSteps.user_clicks_on_option(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003cbutton type\u003d\"button\" class\u003d\"pb-redeem-now-btn red-button pb-showmore\" id\u003d\"redeemBtn\"\u003e...\u003c/button\u003e is not clickable at point (876, 422). Other element would receive the click: \u003ciframe title\u003d\"reCAPTCHA\" src\u003d\"https://www.google.com/recaptcha/api2/anchor?ar\u003d1\u0026amp;k\u003d6LfeWlAUAAAAACm-9sbgznU7woMofbUA_LawU4E3\u0026amp;co\u003daHR0cHM6Ly93d3cucGF5YmFjay5pbjo0NDM.\u0026amp;hl\u003den\u0026amp;v\u003dM-QqaF9xk6BpjLH22uHZRhXt\u0026amp;size\u003dnormal\u0026amp;cb\u003d5c82ccvq6qaw\" width\u003d\"304\" height\u003d\"78\" role\u003d\"presentation\" name\u003d\"a-nsmgrb2drola\" frameborder\u003d\"0\" scrolling\u003d\"no\" sandbox\u003d\"allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox\"\u003e\u003c/iframe\u003e\n  (Session info: chrome\u003d101.0.4951.67)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-B33943GF\u0027, ip: \u0027192.168.137.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_301\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\SAGARJ~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:59176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 149fae5a68cd56eb8f1798dcf8f9cc05\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat step_definition.PaybackSteps.clicks_on_Option_to_check_availability(PaybackSteps.java:241)\r\n\tat ✽.clicks on \"Confirm\" Option to check availability(Feature/@Smart_Watch.feature:14)\r\n",
+              "duration": 13121477400,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "clicks on \"Confirm\" Option to check availability",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Confirm\"",
+                  "offset": 10
+                }
+              ],
+              "location": "PaybackSteps.clicks_on_Option_to_check_availability(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smart_Watch"
+          },
+          {
+            "name": "@Products_Validation"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the functionalties of Smart Watch",
+    "description": "",
+    "id": "to-validate-the-functionalties-of-smart-watch",
+    "keyword": "Feature",
+    "uri": "Feature/@Smart_Watch.feature",
+    "tags": [
+      {
+        "name": "@Smart_Watch",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
